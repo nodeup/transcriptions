@@ -1,0 +1,19 @@
+{
+  "name": "nodeup-transcriptions",
+  "version": "0.0.0",
+  "description": "NodeUp Podcast Transcriptions",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nodeup/transcriptions.git"
+  },
+  "bugs": {
+    "url": "http://github.com/nodeup/transcriptions/issues"
+  },
+  "keywords": [
+    "nodeup",
+    "transcriptions",
+    "podcast"
+  ],
+  "author": "NodeUp Transcribers Team",
+  "license": "MIT"
+}
