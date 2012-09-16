@@ -76,3 +76,84 @@ Table Of Contents:
 
 **Charlie Robbins**: Very small. But to openly say "We don't support this thing" is
  a non-trivial thing for us to do as a company.
+
+**Matt Ranney**: At some point you will get too large where you can never say
+ this.
+
+**Charlie Robbins**: Right. We're trying to get [away from 0.4] early. 0.4 [and]
+ 0.6 was a nightmare because the 0.4 stuff actually added C stuff to node, so
+ we had this other library that brought in a macro called NodeFork, which was
+ basically that C stuff pulled out into a module that compiled for 0.4 or 0.6.
+
+**Daniel Shaw**: Wait so, when you say that the IPC stuff changed, you mean that
+ the child process API stuff changed?
+
+**Charlie Robbins**: The .fork APIs, yeah. In 0.4, .fork didn't exist. In 0.6,
+ .fork existed, and in 0.8 there's some internals in libuv that are unhappy
+ with that. Having a 0.8 process talk to a 0.6 process doesn't really work. And
+ this is outside of the test scope for most people because they're like "Oh,
+ well it talks to itself so that's fine." Right? But the backwards compatibility
+ of IPC is actually-- I think it's a more serious problem than other people do.
+ But.. what can you do?
+
+**Matt Ranney**: It's arguable that it's only serious if you're a Node service
+ provider.
+
+**Charlie Robbins**: Think about it this way. If you have... I guess IPC doesn't
+ happen over the network. But if it happened over the network, you could think
+ that would have that service written in 0.6 and another service is written in
+ 0.8, but at the point we're using the network anyway, so.
+
+**Daniel Shaw**: And that API has been pretty good.
+
+**Charlie Robbins**: So the short answer is we're dropping 0.4 next week and
+ 0.8 is going to come along with it. Along with all of the rest of our users
+ who are still on Rackspace.
+
+**Daniel Shaw**: Cool. We have not upgraded to 0.8 yet, in spite of all of us
+ wanting very much to do so. We have just gotten too big and too complex. Making
+ a major move like this requires a lot more testing and validation of our
+ infrastructure. Any time now, we're gonna pull the trigger on that, but it's
+ probably at least a week or two out.
+
+**Charlie Robbins:**: I'm really curious how you guys do that. Do you guys set
+ up like a forward proxy and then test a subset of your traffic along new
+ infrastructure to make those changes, or do you just hope to God it works and
+ press the button?
+
+**Daniel Shaw**: Well, it's funny you mention that. We, until recently, we
+ pretty much did the second one, which is just like try it out on one, see what
+ happens, and then slowly roll it out on more and more. Look at the graphs,
+ look at the logs, make sure it seems like it's working. Then, roll it out to
+ the rest of the system. It causes too many fire drills, and too many surprise
+ emergencies on weekends. It's too stress-inducing of a way. We're building a
+ more elaborate validation framework that will sort of exercise the system
+ constantly. Kind of like, run all the things that all clients would do,
+ and try to poke around at the edge cases, and just kind of leave that running
+ 24/7.
+
+**Charlie Robbins**: So it's your own, what do they call it at Netflix? The evil
+ monkey or something?
+
+**Matt Ranney**: It's not chaos monkey, it's order monkey. It's like, just do
+ normal things and see if they still work. And yeah, maybe eventually we'll
+ get to chaos monkey where we can actively break things until we know they work.
+ We have a ways to go until that though.
+
+**Daniel Shaw**: It's not throwing food yet, just throwing nice things.. and us.
+
+**Mikeal Rogers**: So there were some other releases too. We had a maintenance
+ release of 0.6. For everybody who's still on 0.6, this is probably really nice.
+
+**Daniel Shaw**: Actually, we totally ignored it. (*laughts*)
+
+**Charlie Robbins**: I'm sure that was, again, also for us. We had a bunch of
+ users who were still on 0.6 that, the latest version of npm that gets installed
+ with 0.6 was crashing because if you didn't include a README in your package.
+ Which applications often don't do. Isaac had already fixed the bug in one of
+ the libraries NPM depends on, but because we were still on 0.6.19, and we
+ weren't running the newest NPM with it, that was kind of the impodence for
+ that release as well.
+
+<!-- Continue at 9:30! -->
+
