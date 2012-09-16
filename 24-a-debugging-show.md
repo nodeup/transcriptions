@@ -15,7 +15,7 @@ Table Of Contents:
 
 ## Introduction
 
-Mikeal Rogers: Hello, welcome to NodeUp, episode 24. I'm Mikael Rogers. We've
+*Mikeal Rogers*: Hello, welcome to NodeUp, episode 24. I'm Mikael Rogers. We've
  got Daniel Shaw on the line, Matt Ranney on the line, we got Charlie Robbins
  on the line, and we got mixmax (craig) on the background, checking out the
  levels. This is our first show on Google Hangouts. We wanted to thank ... and
@@ -27,21 +27,21 @@ Mikeal Rogers: Hello, welcome to NodeUp, episode 24. I'm Mikael Rogers. We've
 
 ## New Node Releases
 
-Daniel Shaw: So, there are plenty of new Node releases out. 0.8.3, 9.0, and a
+*Daniel Shaw*: So, there are plenty of new Node releases out. 0.8.3, 9.0, and a
  maintenance release for 0.6.20. Lots of good stuff. If you're holding off on
  upgrading to Node 0.8, now is definitely the point where you should be
  upgrading your systems to 0.8.3. Mikeal, have you upgraded to 0.8 yet?
 
-Mikeal Rogers: Yeah. All of our production stuff is on 0.8. In fact, a bunch
+*Mikeal Rogers*: Yeah. All of our production stuff is on 0.8. In fact, a bunch
  of deployment stuff fell over and a lot of things are hand-rolled again
  because of that. I really needed Domains, really bad. I really needed
  exceptions to not bring down the process that would just 500 the taco request
  for that. I tooled those in and we're testing them now. They're working pretty
  well.
 
-Daniel Shaw: So Mikeal, what broke? What in 0.8 did not work right?
+*Daniel Shaw*: So Mikeal, what broke? What in 0.8 did not work right?
 
-Mikeal Rogers: I think what it is, something in either propogate or pushover
+*Mikeal Rogers*: I think what it is, something in either propogate or pushover
  isn't working. I talked with Isaac and Substack about it. What we think it is,
  is that there's a lot of different subprocess calls. There was a subprocess
  event called 'exit' that used to happen, it used to be ensured that it would
@@ -49,9 +49,9 @@ Mikeal Rogers: I think what it is, something in either propogate or pushover
  shortly before all of the output has ended. What you actually need to listen
  to is 'close' now. Hopefully, that's a bug and we can get it fixed.
 
-Daniel Shaw: Charlie, are you guys on Node 0.8 yet?
+*Daniel Shaw*: Charlie, are you guys on Node 0.8 yet?
 
-Charlie Robbins: That's a good question. We are 0.8 in installations. Our
+*Charlie Robbins*: That's a good question. We are 0.8 in installations. Our
  production stuff, the stuff that's actually running the other node processes
  is still 0.6. Beginning on August 1st, when the second part of our transition
  to Joyent happens, we're dropping Node 0.4. This is just my fault for listening
@@ -72,7 +72,7 @@ Charlie Robbins: That's a good question. We are 0.8 in installations. Our
  bit of code altogether. But, until that happens, we're temporarily dropping
  \0.4.
 
-Daniel Shaw: What percentage of your users are still on 0.4?
+*Daniel Shaw*: What percentage of your users are still on 0.4?
 
-Charlie Robbins: Very small. But to openly say "We don't support this thing" is
+*Charlie Robbins*: Very small. But to openly say "We don't support this thing" is
  a non-trivial thing for us to do as a company.
