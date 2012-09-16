@@ -10,8 +10,8 @@ Panel:
 
 Table Of Contents:
 
-1.[Introduction](#introduction)
-2.[New Node Releases](#new-node-releases)
+1. [Introduction](#introduction)
+2. [New Node Releases](#new-node-releases)
 
 ## Introduction
 
