@@ -14,9 +14,9 @@ Table of Contents:
 1. [Introduction](#introduction)
 2. [NodeUp Stories](#nodeup-stories)
 3. [Favorite Episodes](#favorite-episodes)
-4. [A CoffeeScript Show](a-coffeescript-show)
-5. [Experimental Stuff](experimental-studd)
-6. [Plugs](plugs)
+4. [A CoffeeScript Show](#a-coffeescript-show)
+5. [Experimental Stuff](#experimental-studd)
+6. [Plugs](#plugs)
 
 ## Introduction
 
