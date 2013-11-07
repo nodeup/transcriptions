@@ -14,9 +14,12 @@ Table of Contents:
 1. [Introduction](#introduction)
 2. [NodeUp Stories](#nodeup-stories)
 3. [Favorite Episodes](#favorite-episodes)
-4. [A CoffeeScript Show](#a-coffeescript-show)
-5. [Experimental Stuff](#experimental-stuff)
-6. [Plugs](#plugs)
+4. [Experimental Stuff](#experimental-stuff)
+5. [A CoffeeScript Show](#a-coffeescript-show)
+6. [NodeUp Teams](#nodeup-teams)
+7. [More Experiments](#more-experiments)
+8. [Realtimeconf Shout Outs](#realtimeconf-shout-outs)
+8. [Plugs](#plugs)
 
 ## Introduction
 
@@ -180,6 +183,8 @@ The front-end team works with Jade and Stylus, and I believe the entire team has
 
 55:47 - **Daniel Shaw**: Right on. Yeah, we had --- from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
 
+## NodeUp Teams
+
 Speaking of new perspectives, I added a couple new concept shows this year and one of my favorites is [NodeUp Teams](http://nodeup.com/fortynine). We kicked it off with Andrew Sliwinski and the team at [diy.org](https://diy.org). They really get openness and sharing as part of their DNA. It was great to kick off with them. Getting that insight into what a large scale production app looks like: what are some of the challenges, what are some of the tools that work. An amazing tidbit that came out of that was the Restify and Bunion serializers that the diy team was able to set up to give them API playback in instances where they had problems under load. So if you haven't had the opportunity to listen to that show, go back and listen to it, there's lots of great things that came out of it. What do you guys think about NodeUp Teams and what other team would you like to hear about?
 
 58:29 - **Nizar Khalife**: What really impressed me about the diy show was that it seemed like they were getting a lot shipped with a really small team. Not a lot of development resources, I would say. So it was really interesting to hear them talk about what they do to keep themselves productive, the makeup of the team itself. I think they take on some students and things like that. That was pretty awesome. It's tough, from the perspective of my team, to do internships but it seems like a weight we'd have to take on. Wed have to assume the front-loaded investment in time to bring people up to speed and all that, so I definitely respect them from doing something like that.
@@ -188,7 +193,7 @@ Speaking of new perspectives, I added a couple new concept shows this year and o
 
 Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd like to hear from.
 
-1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Facebook Photos, as well, from F+. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
+1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Facebook Photos, as well. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
 
 1:02:52 - **Name**: Yeah, the evolution of the product, for sure.
 
@@ -210,19 +215,19 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:04:20 - **Name**: Yeah, what problems did node solve for them? 
 
-1:04:24 - **Cliff Subagio**: Excellent! [The Node Firm](http://thenodefirm.com/) has been helping with the technical vetting of the node talks at the [Node Summit](http://nodesummit2013.eventbrite.com/) at the beginning of December. It's a very business-oriented conference. The most exciting part of what's happening there is the sheer number of companies of companies coming forward and sharing their experience. Groupon's a highlight. After the beginning of December, there will be many more and I look forward to tapping them and getting insight from those teams.
+1:04:24 - **Daniel Shaw**: Excellent! [The Node Firm](http://thenodefirm.com/) has been helping with the technical vetting of the node talks at the [Node Summit](http://nodesummit2013.eventbrite.com/) at the beginning of December. It's a very business-oriented conference. The most exciting part of what's happening there is the sheer number of companies of companies coming forward and sharing their experience. Groupon's a highlight. After the beginning of December, there will be many more and I look forward to tapping them and getting insight from those teams.
 
 1:05:23 - **Name**: Also the [Ghost project](https://ghost.org/). They would be nice to hear from.
 
 1:05:28 - **Daniel Shaw**: Excellent. That's a great idea. I'm really excited about ghost. I haven't been greenlit yet, but I signed up and reserved my "dshaw" handle.
 
+## More Experiments
+
 1:05:50 - **Name**: I'll go on [Pair With Me](http://pairprogramwith.me) and see who's pairing online and there's hardly anyone there but Ruby is packed and all these other groups. And it doesn't have to be just there, but I haven't found a lot of pair programming resources for node. So I don't know if maybe we could promote that some more.
 
 1:06:17 - **Daniel Shaw**: Excellent. We'll do that right now! 
 
-
 ---
-
 
 1:07:31 - **Cliff Subagio**: I was going to ask if I can add some ideas on potential segments and concepts. First up I'm thinking of NodeUp X --- like TED X, where they have communities all over the world. And I'm totally interesting to know what's happening with all these different communities. The other thing is the non-English-speaking countries. I think a few months or maybe a few years ago there were some events in Korea or Japan  
 
@@ -238,7 +243,7 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:10:13 - **Name**: Point for CoffeeScript! Take a shot.
 
-1:10:20 - **Cliff Subagio**: The third idea I was to raise is some sort of a NodeUp community public service announcement. Maybe the podcast can take suggestions from the community on things that will benefit the community overall. If I can start with the first one: I would like the raise the fact that there are actually hundreds of modules in npm with github as a dependency. That in turn causes lots of problems when github is down and it's been down a couple times recently. I have a local npm registry where I work and the --- it's supposed to be useful when, say, central is down --- central is stable, my local npm is stable but when github is down there is nothing I can do, really. Lots of modules still depend on github.com. To be clear, that's when someone specifies a github.com URL in the json dependencies. I ran some scripts to analyze the existing registry and there are about 700 modules where the latest version still depends on github.com. --- encourage if possible -- I think we should publish those modules to the npm registry, o at least beg the authors to. Because there are all the other modules that depend on those 700 modules and on and on and on. So that change would be awesome, if it's possible.
+1:10:20 - **Cliff Subagio**: The third idea I was to raise is some sort of a NodeUp community public service announcement. Maybe the podcast can take suggestions from the community on things that will benefit the community overall. If I can start with the first one: I would like the raise the fact that there are actually hundreds of modules in npm with github as a dependency. That in turn causes lots of problems when github is down and it's been down a couple times recently. I have a local npm registry where I work. It's supposed to be useful when, say, central is down --- central is stable, my local npm is stable but when github is down there is nothing I can do, really. Lots of modules still depend on github.com. To be clear, that's when someone specifies a github.com URL in the json dependencies. I ran some scripts to analyze the existing registry and there are about 700 modules where the latest version still depends on github.com. --- encourage if possible -- I think we should publish those modules to the npm registry, o at least beg the authors to. Because there are all the other modules that depend on those 700 modules and on and on and on. So that change would be awesome, if it's possible.
 
 1:12:19 - **Daniel Shaw**: Frequently those are forks of other codebases that are blocked upstream because the upstream author hasn't updated, or it can't be updated. That's really fantastic feedback. Especially coming from Australia, where the Internet is slow. I know Dominic and Rod have been doing creative things to make that better. But yeah, the dependency on github and the impact of having those module references in github trickles down. That's amazing.
 
@@ -262,15 +267,17 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:16:27 - **Daniel Shaw**: Someone has to take ownership of that, so I think if we want to go beyond the NodeUp intern and find someone who's interested in kicking off that community crowd curation. That's something. And you'd have lots of contact with the node community. To pitch this, it's really an incredible opportunity to get in touch and to meet and personally get to know members throughout the node community. So if you're interested, hit me up and let's talk. 
 
+## Realtimeconf Shout Outs
+
 So, I think Erik has to dash soon, and we're about ready to wrap it up. Guys, if you haven't had an opportunity to prep your plug, we're going to do that in a moment. Final shout outs: both Nizar and Matt want to reemphasize realtimeconf and the realtime experience. I'll let you guys say it in your own words.
 
 1:18:03 - **Nizar Khalife**: Yeah, I really want to thank everyone at &yet and everyone else not at &yet who contributed to the whole experience. It was absolutely amazing, it blew me away. It was my first conference and I really liked how it's not just pedal to the metal. It was definitely something greater than just tech, just coding, just a conference. It was something much larger than life in that sense. I met a lot of the &yet team - they're really awesome. And the actors, the musicians, everyone who helped make that happen deserves some praise because it was amazing. Matt?
 
-1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is Oletta Henderson who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
+1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is [Alana Henderson](https://www.facebook.com/alanahendersoncello) who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
 
 1:19:40 - **Nizar Khalife**: And she's quite the looker, too, by the way.
 
-1:19:43 - **Daniel Shaw**: Yeah, a beautiful song that she composed just for realitimeconf. Go back to the realtimeconf stream and have a look at that. A phenomenal artist and has quickly become a participant in the node community. And we're really grateful for her involvement there. 
+1:19:43 - **Daniel Shaw**: Yeah, a beautiful song that she composed just for realtimeconf. Go back to the realtimeconf stream and have a look at that. A phenomenal artist and has quickly become a participant in the node community. And we're really grateful for her involvement there. 
 
 ## Plugs
 
@@ -292,11 +299,8 @@ Alright! So, it's that time. Time for plugs. Erik, you want to go first?
 
 1:24:00 - **Daniel Shaw**: Cliff?
 
-1:24:02 - **Cliff Subagio**: I'd like to plug the [Melbourne NodeJS Meetup](http://www.meetup.com/MelbNodeJS/). The next meetup is actually in thirteen hours. I don't know if there is any Australian listening live at the moment. Another one I'd like to plug is the Australian Polyhack crew - we're #polyhack on Freenode. We're talking about mostly node but there are other things like Go, Erlang, and other good stuff. 
+1:24:02 - **Cliff Subagio**: I'd like to plug the [Melbourne NodeJS Meetup](http://www.meetup.com/MelbNodeJS/). The next meetup is actually in thirteen hours. I don't know if there is any Australian listening live at the moment. Another one I'd like to plug is the Australian Polyhack crew - we're #polyhack on freenode. We're talking about mostly node but there are other things like Go, Erlang, and other good stuff. 
 
 1:24:37 - **Daniel Shaw**: Cliff was up at 4 A.M. He was up late so if you're at the meetup and see him, give him a hug because he's representing the community. I'm going to my plug for [The Node Firm](http://thenodefirm.com/). They provide strategic consulting, training, and support for business, enterprise, and Fortune 1000 companies. They've been instrumental in saving some very large high-profile projects and getting them back on track through strategy, code review, and execution planning. So if you're building node and your business or team needs help, then please reach out to The Node Firm.
 
 Alright, thanks guys. Thanks to Erik, Nizar, Matt, Cliff. Thank you all for joining us for [a very meta NodeUp](http://nodeup.com/fiftythree). I hope everyone enjoyed this show and this chance to reflect on where we are, what we've gone through, and talk about how we can do better in the future. I invite everyone to leave a review on [iTunes](https://itunes.apple.com/us/podcast/nodeup/id447667314?mt=2). It helps bump up our relevance, and people searching for node on iTunes will find us through that. Even if you don't listen to NodeUp on iTunes, we'd appreciate it if you click through there and subscribe. It's an important ingest point. Follow [@nodeup](https://twitter.com/nodeup) on Twitter. Right now, our sponsor slots are full, but please reach out to [nodeup@gmail.com](mailto:nodeup@gmail.com) if you want some more information about sponsoring NodeUp in the future. Thanks again, guys, it was a great show and great to have you. 
-
-
-
