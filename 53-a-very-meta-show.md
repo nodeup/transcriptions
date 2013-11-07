@@ -193,7 +193,7 @@ Speaking of new perspectives, I added a couple new concept shows this year and o
 
 Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd like to hear from.
 
-1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Facebook Photos, as well. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
+1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Facebook Photos (correction: should be Flickr Photo[https://twitter.com/davglass/status/389916493682851841]), as well. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
 
 1:02:52 - **Name**: Yeah, the evolution of the product, for sure.
 
@@ -273,7 +273,7 @@ So, I think Erik has to dash soon, and we're about ready to wrap it up. Guys, if
 
 1:18:03 - **Nizar Khalife**: Yeah, I really want to thank everyone at &yet and everyone else not at &yet who contributed to the whole experience. It was absolutely amazing, it blew me away. It was my first conference and I really liked how it's not just pedal to the metal. It was definitely something greater than just tech, just coding, just a conference. It was something much larger than life in that sense. I met a lot of the &yet team - they're really awesome. And the actors, the musicians, everyone who helped make that happen deserves some praise because it was amazing. Matt?
 
-1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is [Alana Henderson](https://www.facebook.com/alanahendersoncello) who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
+1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absFolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is [Alana Henderson](https://www.facebook.com/alanahendersoncello) who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
 
 1:19:40 - **Nizar Khalife**: And she's quite the looker, too, by the way.
 
