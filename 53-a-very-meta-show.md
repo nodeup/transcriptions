@@ -15,7 +15,7 @@ Table of Contents:
 2. [NodeUp Stories](#nodeup-stories)
 3. [Favorite Episodes](#favorite-episodes)
 4. [A CoffeeScript Show](#a-coffeescript-show)
-5. [Experimental Stuff](#experimental-studd)
+5. [Experimental Stuff](#experimental-stuff)
 6. [Plugs](#plugs)
 
 ## Introduction
@@ -144,9 +144,9 @@ All through the node community it's one of the strongest things that is a hallma
 
 46:04 - **Nizar Khalife**: I think he's the only one who's admitted on air that he likes writing documentation. 
 
-46:09 - Look at his test folder, too. His test folder has just, so many tests in there!
+46:09 - **Name**: Look at his test folder, too. His test folder has just, so many tests in there!
 
-46:17 - You can tell he really cares about the details and getting it right.
+46:17 - **Name**: You can tell he really cares about the details and getting it right.
 
 ## Experimental Stuff
 
@@ -160,23 +160,23 @@ The front-end team works with Jade and Stylus, and I believe the entire team has
 
 50:16 - **Daniel Shaw**: So, we talked about a lot of the shows that worked. It is important to get out a lot of different voices. One of the show that I enjoyed doing most was [the promises show](http://nodeup.com/fortysix). That was something completely different and I think right before that, there was a bit of negativity around that. And we did that show and I think it contributed to dampening that sense that the people who are into promises were being ostracized and they didn't belong. And I really wanted to pull back away from that.
 
-51:26 - It was really interesting at the time because I have this argument all the time. I'm pro promises -- I'll put that out there and say that publicly. But a lot of the guys at the office aren't. And we're building this product for client-side developers so I've really been preaching promises. When I first heard that episode I thought "Okay, so the node community as a whole rejects promises, I see." And then the next episode, when you brought them in, I thought that was an awesome example of what the community's all about.
+51:26 - **Name**: It was really interesting at the time because I have this argument all the time. I'm pro promises -- I'll put that out there and say that publicly. But a lot of the guys at the office aren't. And we're building this product for client-side developers so I've really been preaching promises. When I first heard that episode I thought "Okay, so the node community as a whole rejects promises, I see." And then the next episode, when you brought them in, I thought that was an awesome example of what the community's all about.
 
 51:56 - **Nizar Khalife**: Yeah, I enjoyed that show a lot. And I have a lot of respect for Domenic Denicola because he gets a lot of flack for the whole promises thing, with him being quote-unquote "the promises guy." It's nice to see a different side of the coin. Not everyone in the node community agrees 100% about what the APIs should be. So it's nice to see some people doing one thing and then the other perspective, too. 
 
-52:26 - Yeah, that's what I loved about that show. It was a lot of religious battles back and forth. It was good to hear both sides of it, definitely. 
+52:26 - **Name**: Yeah, that's what I loved about that show. It was a lot of religious battles back and forth. It was good to hear both sides of it, definitely. 
 
 ## A CoffeeScript Show
 
 52:36 - **Daniel Shaw**: I've had -- for about the same amount of time -- a show that I've wanted to do similarly with CoffeeScript. But some of the contributors seem to fall down into proselytizing. What I want to highlight is the individual experiences and what works and what doesn't. The last thing I want to hear is why I should use CoffeeScript. I have evaluated that and I've made my own decisions. Anyone telling me about why I should do anything, e.g. pop the stack on that and get out of CoffeeScript and substitute anything in there. I want to do this show but I haven't found a group of people where we can really talk. I talked to Dominic a lot so I knew when we did that promises show that we'd really have a constructive discussion about the promises experience. You know: why Dominic believes it improves his experience and the developers there have found it useful. If anyone feels that they can help me make that CoffeeScript show a reality, I'd love to do it. I just haven't gotten the right feel on it yet.
 
-54:27 - I had this experience. I started using CoffeeScript last year. And I heard you talk about it on the show a few times. I was like "You know what? Let's see what it outputs." So I look and it's pretty good. But I have to say, it's been pissing me off. It's so frustrating. It's like "This looks really pretty, but why are you breaking?" Especially in Rails, it doesn't even through an error, it takes you right to the haml where the erb says "Hey! Whatever." At least in my experience. So I'd rather just run the command line and do a watcher or something.
+54:27 - **Name**: I had this experience. I started using CoffeeScript last year. And I heard you talk about it on the show a few times. I was like "You know what? Let's see what it outputs." So I look and it's pretty good. But I have to say, it's been pissing me off. It's so frustrating. It's like "This looks really pretty, but why are you breaking?" Especially in Rails, it doesn't even through an error, it takes you right to the haml where the erb says "Hey! Whatever." At least in my experience. So I'd rather just run the command line and do a watcher or something.
 
-55:07 - That's interesting. Did you go from JavaScript to CoffeeScript?
+55:07 - **Name**: That's interesting. Did you go from JavaScript to CoffeeScript?
 
-55:10 - Yes. CoffeeScript for me? Right now? If I have to use it on a project, sure, whatever. But I'd rather only use it for tests, because my biggest win with that is getting rid of that `function`, and I can use that little arrow function now. In [Jasmine](http://pivotal.github.io/jasmine/), everywhere. But I hate using CoffeeScript on production now.
+55:10 - **Name**: Yes. CoffeeScript for me? Right now? If I have to use it on a project, sure, whatever. But I'd rather only use it for tests, because my biggest win with that is getting rid of that `function`, and I can use that little arrow function now. In [Jasmine](http://pivotal.github.io/jasmine/), everywhere. But I hate using CoffeeScript on production now.
 
-55:35 - I know at Trello they use CoffeeScript for their node stuff, so maybe those would be some good guys to get on there.
+55:35 - **Name**: I know at Trello they use CoffeeScript for their node stuff, so maybe those would be some good guys to get on there.
 
 55:47 - **Daniel Shaw**: Right on. Yeah, we had --- from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
 
@@ -190,33 +190,33 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Facebook Photos, as well, from F+. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
 
-1:02:52 - Yeah, the evolution of the product, for sure.
+1:02:52 - **Name**: Yeah, the evolution of the product, for sure.
 
 1:02:55 - **Cliff Subagio**: Definitely. It's not just about the result, the success at the end. But the pain points, as well, along the way. So it's really real.
 
 1:03:08 - **Nizar Khalife**: And just hearing what their recurrent workflow is in terms of the toolchain they use and all that. That's always really useful. I'm always on the lookout for little things like a module or command line thing that might make me more efficient or make me more productive. 
 
-1:03:23 - I think it's interesting some of the companies that have adopted node, like Microsoft has its own open source out there, and Adobe is doing Photoshop plugins and I think Adobe Brackets uses it, too. 
+1:03:23 - **Name**: I think it's interesting some of the companies that have adopted node, like Microsoft has its own open source out there, and Adobe is doing Photoshop plugins and I think Adobe Brackets uses it, too. 
 
 1:03:36 - **Daniel Shaw**: Yep.
 
-1:03:37 - That what I was going to suggest, to have the Adobe Brackets team. That would be an unbelievable team for the show.
+1:03:37 - **Name**: That what I was going to suggest, to have the Adobe Brackets team. That would be an unbelievable team for the show.
 
-1:03:44 - ditto on that one.
+1:03:44 - **Name**: Ditto on that one.
 
 1:03:45 - **Nizar Khalife**: The open source side of those companies is relatively small. It might be cool to see their perspective from within a giant corporation.
 
-1:04:00 - And how they moved from whatever their original stack was to their new stack. What that looks like. What were the benefits of their old stack compared to their new one? What were the advantages to using something like Python Tornado versus node? What did they like about that that we might be able to bring back into the node community and adopt.
+1:04:00 - **Name**: And how they moved from whatever their original stack was to their new stack. What that looks like. What were the benefits of their old stack compared to their new one? What were the advantages to using something like Python Tornado versus node? What did they like about that that we might be able to bring back into the node community and adopt.
 
-1:04:20 - Yeah, what problems did node solve for them? 
+1:04:20 - **Name**: Yeah, what problems did node solve for them? 
 
 1:04:24 - **Cliff Subagio**: Excellent! [The Node Firm](http://thenodefirm.com/) has been helping with the technical vetting of the node talks at the [Node Summit](http://nodesummit2013.eventbrite.com/) at the beginning of December. It's a very business-oriented conference. The most exciting part of what's happening there is the sheer number of companies of companies coming forward and sharing their experience. Groupon's a highlight. After the beginning of December, there will be many more and I look forward to tapping them and getting insight from those teams.
 
-1:05:23 - Also the [Ghost project](https://ghost.org/). They would be nice to hear from.
+1:05:23 - **Name**: Also the [Ghost project](https://ghost.org/). They would be nice to hear from.
 
 1:05:28 - **Daniel Shaw**: Excellent. That's a great idea. I'm really excited about ghost. I haven't been greenlit yet, but I signed up and reserved my "dshaw" handle.
 
-1:05:50 - I'll go on [Pair With Me](http://pairprogramwith.me) and see who's pairing online and there's hardly anyone there but Ruby is packed and all these other groups. And it doesn't have to be just there, but I haven't found a lot of pair programming resources for node. So I don't know if maybe we could promote that some more.
+1:05:50 - **Name**: I'll go on [Pair With Me](http://pairprogramwith.me) and see who's pairing online and there's hardly anyone there but Ruby is packed and all these other groups. And it doesn't have to be just there, but I haven't found a lot of pair programming resources for node. So I don't know if maybe we could promote that some more.
 
 1:06:17 - **Daniel Shaw**: Excellent. We'll do that right now! 
 
@@ -230,7 +230,7 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:09:07 - **Cliff Subagio**: The other thing I liked about the [binary compatibility episode](http://nodeup.com/fiftytwo) is when Rod was talking about whether to put something in core or in user land. That made me think of a "NodeUp Smackdown" segment, like a friendly competitive discussion on why you did this or why you did that. It doesn't have to be a right or wrong thing, but to know the reasoning behind the speaker's perspective really helps us learn a lot about all these different approaches. That will encourage more and more good things in the end. 
 
-1:09:49 - First one will be CoffeeScript, right?
+1:09:49 - **Name**: First one will be CoffeeScript, right?
 
 1:09:56 - **Daniel Shaw**: Ha! But no, I want to do CoffeeScript by CoffeeScripters, first. Maybe after we do that, then we can go back into the smackdown.
 
@@ -248,11 +248,11 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:15:13 - **Nizar Khalife**: I'm not sure if I want to be the --- in this case. 
 
-1:15:22 - Did you just sign up to become a personal assistant?
+1:15:22 - **Name**: Did you just sign up to become a personal assistant?
 
-1:15:26 - That sounds horrible, doesn't it?
+1:15:26 - **Daniel Shaw**: That sounds horrible, doesn't it?
 
-1:15:29 - We can definitely crowdsource a lot of this stuff and help them individually, wherever we can, for sure.
+1:15:29 - **Name**: We can definitely crowdsource a lot of this stuff and help them individually, wherever we can, for sure.
 
 1:15:35 - **Nizar Khalife**: And not just on the show. There are a lot of community leaders that are just overwhelmed with things to do. And maybe a package that everybody uses, suddenly there's no time to maintain it. In those cases, the community's there and a lot of people listen to this. Whether or not they say so, there's a lot of people exposed to NodeUp and they follow everybody on Twitter, so they're responsive to cries for help.
 
