@@ -181,7 +181,7 @@ The front-end team works with Jade and Stylus, and I believe the entire team has
 
 55:35 - **Name**: I know at Trello they use CoffeeScript for their node stuff, so maybe those would be some good guys to get on there.
 
-55:47 - **Daniel Shaw**: Right on. Yeah, we had --- from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
+55:47 - **Daniel Shaw**: Right on. Yeah, we had @BrettKiefer from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
 
 ## NodeUp Teams
 
