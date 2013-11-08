@@ -141,15 +141,13 @@ All through the node community it's one of the strongest things that is a hallma
 
 45:35 - **Nizar Khalife**: But also I think if you get recommended a good module it will refine your eye for good modules. If you get exposed to a couple modules with great readme files and code examples, then you get better at recognizing them when you're doing random searches on npm. 
 
-45:53 - and you learn to write them yourself
+45:53 - **Matt Creager**: And you learn to write them yourself.
 
 45:56 - **Daniel Shaw**: Speaking of really great readme files, Rod Vagg, again, my God. He is the master of the readme. 
 
 46:04 - **Nizar Khalife**: I think he's the only one who's admitted on air that he likes writing documentation. 
 
-46:09 - **Name**: Look at his test folder, too. His test folder has just, so many tests in there!
-
-46:17 - **Name**: You can tell he really cares about the details and getting it right.
+46:09 - **Erik Isaksen**: Look at his test folder, too. His test folder has so many tests in there! You can tell he really cares about the details and getting it right.
 
 ## Experimental Stuff
 
@@ -163,25 +161,25 @@ The front-end team works with Jade and Stylus, and I believe the entire team has
 
 50:16 - **Daniel Shaw**: So, we talked about a lot of the shows that worked. It is important to get out a lot of different voices. One of the show that I enjoyed doing most was [the promises show](http://nodeup.com/fortysix). That was something completely different and I think right before that, there was a bit of negativity around that. And we did that show and I think it contributed to dampening that sense that the people who are into promises were being ostracized and they didn't belong. And I really wanted to pull back away from that.
 
-51:26 - **Name**: It was really interesting at the time because I have this argument all the time. I'm pro promises -- I'll put that out there and say that publicly. But a lot of the guys at the office aren't. And we're building this product for client-side developers so I've really been preaching promises. When I first heard that episode I thought "Okay, so the node community as a whole rejects promises, I see." And then the next episode, when you brought them in, I thought that was an awesome example of what the community's all about.
+51:26 - **Matt Creager**: It was really interesting at the time because I have this argument all the time. I'm pro promises -- I'll put that out there and say that publicly. But a lot of the guys at the office aren't. And we're building this product for client-side developers so I've really been preaching promises. When I first heard that episode I thought "Okay, so the node community as a whole rejects promises, I see." And then the next episode, when you brought them in, I thought that was an awesome example of what the community's all about.
 
 51:56 - **Nizar Khalife**: Yeah, I enjoyed that show a lot. And I have a lot of respect for Domenic Denicola because he gets a lot of flack for the whole promises thing, with him being quote-unquote "the promises guy." It's nice to see a different side of the coin. Not everyone in the node community agrees 100% about what the APIs should be. So it's nice to see some people doing one thing and then the other perspective, too. 
 
-52:26 - **Name**: Yeah, that's what I loved about that show. It was a lot of religious battles back and forth. It was good to hear both sides of it, definitely. 
+52:26 - **Erik Isaksen**: Yeah, that's what I loved about that show. It was a lot of religious battles back and forth. It was good to hear both sides of it, definitely. 
 
 ## A CoffeeScript Show
 
-52:36 - **Daniel Shaw**: I've had -- for about the same amount of time -- a show that I've wanted to do similarly with CoffeeScript. But some of the contributors seem to fall down into proselytizing. What I want to highlight is the individual experiences and what works and what doesn't. The last thing I want to hear is why I should use CoffeeScript. I have evaluated that and I've made my own decisions. Anyone telling me about why I should do anything, e.g. pop the stack on that and get out of CoffeeScript and substitute anything in there. I want to do this show but I haven't found a group of people where we can really talk. I talked to Dominic a lot so I knew when we did that promises show that we'd really have a constructive discussion about the promises experience. You know: why Dominic believes it improves his experience and the developers there have found it useful. If anyone feels that they can help me make that CoffeeScript show a reality, I'd love to do it. I just haven't gotten the right feel on it yet.
+52:36 - **Daniel Shaw**: I've had -- for about the same amount of time -- a show that I've wanted to do similarly with CoffeeScript. But some of the contributors seem to fall down into proselytizing. What I want to highlight is the individual experiences and what works and what doesn't. The last thing I want to fucking hear is why I should use CoffeeScript. I have evaluated that and I've made my own decisions. Anyone telling me about why I should do anything, e.g. pop the stack on that and get out of CoffeeScript and substitute anything in there. I want to do this show but I haven't found a group of people where we can really talk. I talked to Dominic a lot so I knew when we did that promises show that we'd really have a constructive discussion about the promises experience. You know: why Dominic believes it improves his experience and the developers there have found it useful. If anyone feels that they can help me make that CoffeeScript show a reality, I'd love to do it. I just haven't gotten the right feel on it yet.
 
-54:27 - **Name**: I had this experience. I started using CoffeeScript last year. And I heard you talk about it on the show a few times. I was like "You know what? Let's see what it outputs." So I look and it's pretty good. But I have to say, it's been pissing me off. It's so frustrating. It's like "This looks really pretty, but why are you breaking?" Especially in Rails, it doesn't even through an error, it takes you right to the haml where the erb says "Hey! Whatever." At least in my experience. So I'd rather just run the command line and do a watcher or something.
+54:27 - **Erik Isaksen**: I had this experience. I started using CoffeeScript last year. And I heard you talk about it on the show a few times. I was like "You know what? Let's see what it outputs." So I look and it's pretty good. But I have to say, it's been pissing me off. It's so frustrating. It's like "This looks really pretty, but why are you breaking?" Especially in Rails, it doesn't even through an error, it takes you right to the haml where the erb says "Hey! Whatever." At least in my experience. So I'd rather just run the command line and do a watcher or something.
 
-55:07 - **Name**: That's interesting. Did you go from JavaScript to CoffeeScript?
+55:07 - **Matt Creager**: That's interesting. Did you go from JavaScript to CoffeeScript?
 
-55:10 - **Name**: Yes. CoffeeScript for me? Right now? If I have to use it on a project, sure, whatever. But I'd rather only use it for tests, because my biggest win with that is getting rid of that `function`, and I can use that little arrow function now. In [Jasmine](http://pivotal.github.io/jasmine/), everywhere. But I hate using CoffeeScript on production now.
+55:10 - **Erik Isaksen**: Yes. CoffeeScript for me? Right now? If I have to use it on a project, sure, whatever. But I'd rather only use it for tests, because my biggest win with that is getting rid of that `function`, and I can use that little arrow function now. In [Jasmine](http://pivotal.github.io/jasmine/), having function everywhere is cluttersome, but I hate using CoffeeScript on production now.
 
-55:35 - **Name**: I know at Trello they use CoffeeScript for their node stuff, so maybe those would be some good guys to get on there.
+55:35 - **Nizar Khalife**: I know at Trello they use CoffeeScript for their node stuff, so maybe those would be some good guys to get on there. **Update:** here they are on [NodeUp 54 - a Team Trello Show](http://nodeup.com/fiftyfour)
 
-55:47 - **Daniel Shaw**: Right on. Yeah, we had @BrettKiefer from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
+55:47 - **Daniel Shaw**: Right on. Yeah, we had [@BrettKiefer](https://twitter.com/BrettKiefer) from the Trello team on [the realtime show](http://nodeup.com/thirtyone) and his contribution was fantastic. My apologies for spacing on your name. I really enjoyed having them on the show. And if you are familiar with the contribute repo at [github.com/nodeup/contribute/](https://github.com/nodeup/contribute/). It's the area where a lot of shows are under development, and you can see some of the concepts we're working on. I invite everybody to also add new shows there. That would be fantastic. I always like adding new perspectives.
 
 ## NodeUp Teams
 
@@ -193,55 +191,55 @@ Speaking of new perspectives, I added a couple new concept shows this year and o
 
 Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd like to hear from.
 
-1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And Flickr Photos, as well. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
+1:01:48 - **Cliff Subagio**: Sometimes I see articles on the net about "Hey, this company successfully migrated to node from some other stack." I think recently, Groupon did a rewrite and migrated to node. And [Flickr Photos](https://twitter.com/mmatuzak/status/389966742568456192), as well. I think it would be great if those companies came and talked about it on NodeUp Teams. I think I had a similar experience to what Matt was saying, when he was getting pushback on adopting node. It's really one thing to pass along a link about someone saying they migrated to node but having the teams actually discuss their experience on a format like NodeUp Teams, I think it would really put some serious reasoning behind the argument. 
 
-1:02:52 - **Name**: Yeah, the evolution of the product, for sure.
+1:02:52 - **Erik Isaksen**: Yeah, the evolution of the product, for sure.
 
 1:02:55 - **Cliff Subagio**: Definitely. It's not just about the result, the success at the end. But the pain points, as well, along the way. So it's really real.
 
-1:03:08 - **Nizar Khalife**: And just hearing what their recurrent workflow is in terms of the toolchain they use and all that. That's always really useful. I'm always on the lookout for little things like a module or command line thing that might make me more efficient or make me more productive. 
+1:03:08 - **Nizar Khalife**: And just hearing what their recurrent workflow is in terms of the toolchain they use, and all that. That's always really useful. I'm always on the lookout for little things like a module or command line thing that might make me more efficient or make me more productive. 
 
-1:03:23 - **Name**: I think it's interesting some of the companies that have adopted node, like Microsoft has its own open source out there, and Adobe is doing Photoshop plugins and I think Adobe Brackets uses it, too. 
+1:03:23 - **Erik Isaksen**: I think it's interesting some of the companies that have adopted node, like Microsoft has its own open source out there, and Adobe is doing Photoshop plugins and I think Adobe Brackets uses it, too. 
 
 1:03:36 - **Daniel Shaw**: Yep.
 
-1:03:37 - **Name**: That what I was going to suggest, to have the Adobe Brackets team. That would be an unbelievable team for the show.
+1:03:37 - **Matt Creager**: That what I was going to suggest, to have the Adobe Brackets team. That would be an unbelievable team for the show.
 
-1:03:44 - **Name**: Ditto on that one.
+1:03:44 - **Erik Isaksen**: Ditto on that one.
 
 1:03:45 - **Nizar Khalife**: The open source side of those companies is relatively small. It might be cool to see their perspective from within a giant corporation.
 
-1:04:00 - **Name**: And how they moved from whatever their original stack was to their new stack. What that looks like. What were the benefits of their old stack compared to their new one? What were the advantages to using something like Python Tornado versus node? What did they like about that that we might be able to bring back into the node community and adopt.
+1:04:00 - **Matt Creager**: And how they moved from whatever their original stack was to their new stack. What that looks like. What were the benefits of their old stack compared to their new one? What were the advantages to using something like Python Tornado versus node? What did they like about that that we might be able to bring back into the node community and adopt.
 
-1:04:20 - **Name**: Yeah, what problems did node solve for them? 
+1:04:20 - **Erik Isaksen**: Yeah, what problems did node solve for them? 
 
 1:04:24 - **Daniel Shaw**: Excellent! [The Node Firm](http://thenodefirm.com/) has been helping with the technical vetting of the node talks at the [Node Summit](http://nodesummit2013.eventbrite.com/) at the beginning of December. It's a very business-oriented conference. The most exciting part of what's happening there is the sheer number of companies of companies coming forward and sharing their experience. Groupon's a highlight. After the beginning of December, there will be many more and I look forward to tapping them and getting insight from those teams.
 
-1:05:23 - **Name**: Also the [Ghost project](https://ghost.org/). They would be nice to hear from.
+1:05:23 - **Erik Isaksen**: Also the [Ghost project](https://ghost.org/). They would be nice to hear from.
 
 1:05:28 - **Daniel Shaw**: Excellent. That's a great idea. I'm really excited about ghost. I haven't been greenlit yet, but I signed up and reserved my "dshaw" handle.
 
 ## More Experiments
 
-1:05:50 - **Name**: I'll go on [Pair With Me](http://pairprogramwith.me) and see who's pairing online and there's hardly anyone there but Ruby is packed and all these other groups. And it doesn't have to be just there, but I haven't found a lot of pair programming resources for node. So I don't know if maybe we could promote that some more.
+1:05:50 - **Erik Isaksen**: Another thing. I'll go on [Pair With Me](http://pairprogramwith.me) and look for JavaScript and see who's pairing online. There's hardly anyone there, but Ruby is packed, and all these other groups. It doesn't have to be just there, but I haven't found a lot of pair programming resources for node. So I don't know if maybe we could promote that some more.
 
 1:06:17 - **Daniel Shaw**: Excellent. We'll do that right now! 
 
 ---
 
-1:07:31 - **Cliff Subagio**: I was going to ask if I can add some ideas on potential segments and concepts. First up I'm thinking of NodeUpX like TEDx (TED Talks), where they have communities all over the world. And I'm totally interesting to know what's happening with all these different communities. The other thing is the non-English-speaking countries. I think a few months or maybe a few years ago there were some events in Korea or Japan  
+1:07:31 - **Cliff Subagio**: I was going to ask if I can add some ideas on potential segments and concepts. First up I'm thinking of NodeUpX like TEDx (TED Talks), where they have communities all over the world. And I'm totally interesting to know what's happening with all these different communities. The other thing is the non-English-speaking countries. I think a few months or maybe a few years ago there were some events in Korea or Japan.
 
 1:08:42 - **Daniel Shaw**: Let me riff on that real quick. If you do start a podcast and the core group also speaks English, I would like to help kick that off by having your podcast jump meta, and we'll talk about that on NodeUp.
 
 1:09:07 - **Cliff Subagio**: The other thing I liked about the [binary compatibility episode](http://nodeup.com/fiftytwo) is when Rod was talking about whether to put something in core or in user land. That made me think of a "NodeUp Smackdown" segment, like a friendly competitive discussion on why you did this or why you did that. It doesn't have to be a right or wrong thing, but to know the reasoning behind the speaker's perspective really helps us learn a lot about all these different approaches. That will encourage more and more good things in the end. 
 
-1:09:49 - **Name**: First one will be CoffeeScript, right?
+1:09:49 - **Erik Isaksen**: First one will be CoffeeScript, right?
 
 1:09:56 - **Daniel Shaw**: Ha! But no, I want to do CoffeeScript by CoffeeScripters, first. Maybe after we do that, then we can go back into the smackdown.
 
 1:10:09 - **Nizar Khalife**: You can make those into a drinking game.
 
-1:10:13 - **Name**: Point for CoffeeScript! Take a shot.
+1:10:13 - **Erik Isaksen**: Point for CoffeeScript! Take a shot.
 
 1:10:20 - **Cliff Subagio**: The third idea I was to raise is some sort of a NodeUp community public service announcement. Maybe the podcast can take suggestions from the community on things that will benefit the community overall. If I can start with the first one: I would like the raise the fact that there are actually hundreds of modules in npm with github as a dependency. That in turn causes lots of problems when github is down and it's been down a couple times recently. I have a local npm registry where I work. It's supposed to be useful when, say, central is down but central is stable, my local npm is stable but when github is down there is nothing I can do, really. Lots of modules still depend on github.com. To be clear, that's when someone specifies a github.com URL in the package.json dependencies. I ran some scripts to analyze the existing registry and there are about 700 modules where the latest version still depends on github.com. I'll totally encourage if possible, I think we should publish those modules to the npm registry, o at least beg the authors to. Because there are all the other modules that depend on those 700 modules and on and on and on. So that change would be awesome, if it's possible.
 
@@ -251,29 +249,29 @@ Anyone else want to talk about NodeUp Teams? I'd love to hear which teams you'd 
 
 1:14:10 - **Daniel Shaw**: Yeah! I've been looking for the best way to address this. Something that I'd really like to do is set up an intern kind of a thing. Someone who would help me with doing that. You know, queuing up the shows and getting everybody on board. Making sure everyone's still available and having a show go off is a considerable amount of my time. If anyone's interested in doing that -- if you're interested in doing that. Yeah! Yes! Realize what you're getting into, though: it's a fair amount of work.
 
-1:15:13 - **Nizar Khalife**: I'm not sure if I want to be the --- in this case. 
+1:15:13 - **Nizar Khalife**: I'm not sure if I want to be the change in this case. 
 
-1:15:22 - **Name**: Did you just sign up to become a personal assistant?
+1:15:22 - **Matt Creager**: Did you just sign up to become a personal assistant?
 
 1:15:26 - **Daniel Shaw**: That sounds horrible, doesn't it?
 
-1:15:29 - **Name**: We can definitely crowdsource a lot of this stuff and help them individually, wherever we can, for sure.
+1:15:29 - **Matt Creager**: We can definitely crowdsource a lot of this stuff and help them individually, wherever we can, for sure.
 
 1:15:35 - **Nizar Khalife**: And not just on the show. There are a lot of community leaders that are just overwhelmed with things to do. And maybe a package that everybody uses, suddenly there's no time to maintain it. In those cases, the community's there and a lot of people listen to this. Whether or not they say so, there's a lot of people exposed to NodeUp and they follow everybody on Twitter, so they're responsive to cries for help.
 
 1:16:10 - **Daniel Shaw**: My concern with the pure crowdsource is that it would still require a fair amount of curation, right? 
 
-1:16:24 - **Name**: Yeah, someone has to take ownership, for sure.
+1:16:24 - **Erik Isaksen**: Yeah, someone has to take ownership, for sure.
 
 1:16:27 - **Daniel Shaw**: Someone has to take ownership of that, so I think if we want to go beyond the NodeUp intern and find someone who's interested in kicking off that community crowd curation. That's something. And you'd have lots of contact with the node community. To pitch this, it's really an incredible opportunity to get in touch and to meet and personally get to know members throughout the node community. So if you're interested, hit me up and let's talk. 
 
 ## Realtimeconf Shout Outs
 
-So, I think Erik has to dash soon, and we're about ready to wrap it up. Guys, if you haven't had an opportunity to prep your plug, we're going to do that in a moment. Final shout outs: both Nizar and Matt want to reemphasize realtimeconf and the realtime experience. I'll let you guys say it in your own words.
+1:17:27 - **Daniel Shaw**: So, I think Erik has to dash soon, and we're about ready to wrap it up. Guys, if you haven't had an opportunity to prep your plug, we're going to do that in a moment. Final shout outs: both Nizar and Matt want to reemphasize realtimeconf and the realtime experience. I'll let you guys say it in your own words.
 
 1:18:03 - **Nizar Khalife**: Yeah, I really want to thank everyone at &yet and everyone else not at &yet who contributed to the whole experience. It was absolutely amazing, it blew me away. It was my first conference and I really liked how it's not just pedal to the metal. It was definitely something greater than just tech, just coding, just a conference. It was something much larger than life in that sense. I met a lot of the &yet team - they're really awesome. And the actors, the musicians, everyone who helped make that happen deserves some praise because it was amazing. Matt?
 
-1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absFolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is [Alana Henderson](https://www.facebook.com/alanahendersoncello) who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
+1:18:59 - **Matt Creager**: I just wanted to say that &yet and realtimeconf were absolutely incredible and I just kind of wanted to -- she'll never hear this, but -- there was a moment where a person did a solo cello performance and she sang this a song that she'd written herself -- this is [Alana Henderson](https://www.facebook.com/alanahendersoncello) who played Ross in the play that played out. And three people at my table were in tears. I won't tell you if I was one of them or not, I was just at a development conference. 
 
 1:19:40 - **Nizar Khalife**: And she's quite the looker, too, by the way.
 
