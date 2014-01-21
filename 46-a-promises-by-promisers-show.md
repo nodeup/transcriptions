@@ -85,3 +85,5 @@ In short it's just a way of having your functions return eventual values and it 
 One last thing, there's some terminology confusion floating arround.  Promies is the fundamental pattern.  THere's this pattern called a deferred which is a way of creating promises and is popular because jQuery doesn't separate them very well.
 
 ## 15:30
+
+WIP
