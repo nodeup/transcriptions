@@ -21,9 +21,7 @@ Table of Contents:
 
 ## Introduction
 
-0:17 - **Daniel Shaw**: Hello, welcome to NodeUp, this is Dshaw. Today I'm joined by Domenic Denicola, Jeremy Standley, and Andy Wingo.
-
-We're going to be talking about promises in practice in the real world. It's a bit of a promises redemption podcast. The first podcast to which Michael Rodgers was actually not invited. Our sponsor today is &yet.
+0:17 - **Daniel Shaw**: Hello, welcome to NodeUp, this is Dshaw. Today I'm joined by Domenic Denicola, Jeremy Standley, and Andy Wingo. We're going to be talking about promises in practice in the real world. It's a bit of a promises redemption podcast. The first podcast to which Michael Rodgers was actually not invited. Our sponsor today is &yet.
 
 So, Domenic is a [Promises/A+](http://promisesaplus.com/) co-editor and the adopter of all lost npm puppies in the world. If you need someone to maintain your npm module, please ask Domenic!
 
@@ -51,19 +49,19 @@ And finally, Andy Wingo is a compiler hacker and he's going to be playing the ro
 
 So the pattern that has been standardized over the last few years under the name of promises in user space has been organized under Promises/A+ which is this spec that I co-edit. That really nails down what it means to be a promise in JavaScript at a level that isn't just an event emitter with two events. It's more like an object that follows certain rules and has a way of registering callbacks, but behaves in a very predictable way.
 
-In your opinion, if node had continued down that path, would we have gotten to A+. It's matured a lot since then, and so have promise.
+0:00 - **Daniel Shaw**: In your opinion, if node had continued down that path, would we have gotten to A+? It's matured a lot since then, and so have promises.
 
-I don't think so, I think the desire to build on the event emitter technology would've been a trap.  At the time that node 0.1 came out, there was a lot of work on CommonJS Promises/A which was a predecessor to A+. It was well understood how promises should work. Talking with Kriskowal who was one of the early promise implementers. It's just a matter of which communities understood which technologies and node understood event emitters but they didn't really understand promises so when they were like "hey, a promise is just something that succeeds or fails" then they were like "oh, let's do that in terms of event emitters." I think it would've been painful and I think nobody would've liked it ever.
+0:00 - **Dominic Denicola**: I don't think so, I think the desire to build on the event emitter technology would've been a trap. At the time that node 0.1 came out, there was a lot of work on CommonJS Promises/A which was a predecessor to A+. It was well understood how promises should work. Talking with [Kris Kowal](https://twitter.com/kriskowal) who was one of the early promise implementers. It's just a matter of which communities understood which technologies and node understood event emitters but they didn't really understand promises so when they were like "hey, a promise is just something that succeeds or fails" then they were like "oh, let's do that in terms of event emitters." I think it would've been painful and I think nobody would've liked it ever.
 
 Possibly worse than where we are now.
 
-Definitely worse I'd say.
+Definitely worse, I'd say.
 
 Conceptually filling in the blanks. If core were to be more promise friendly, what would that look like.
 
 There's actually a really easy way to introduce this. The basic idea is that, as with all promise functions, instead of passing in a callback that receives error,result you return a promise that has the usual behavior of either becoming rejected with an error or fulfilled with a value.  One really nice thing you can do is you can just say oh, if there's no callback I'll return a promise but if there is a callback I'll do the normal callback stuff.  So that would be one path by which things would work really well and maintain both styles.
 
-Kind of like the way michael handles stream in request.
+Kind of like the way Michael handles stream in request.
 
 Yeah, we do this in several APIs I expose where it's like yeah, if you're going to consume it with promise that's awesome, I want to give you that ability but if you're a normal node person and don't care about all this, lets conform to the basic low-level callbacks and let you pass that in.
 
@@ -75,17 +73,17 @@ Okay, so I'm gonna go round the horn and. Let me actually skip over to Jeremy an
 
 Absolutely, we got started very early on at Medium using promises. Our frontend lead wrote a big chunk of google closure library. He's a big fan of deferreds which is one of the built-in plugins for closure. We opted to go with a similar pattern for the backend. Despite the fact that pretty much every node library ever does not use promises. It's actually worked really really well for us. In large part because we ended up in a state where we needed to chain results from particular services such that they became inputs to other services and we found that we had these pyramids in our test cases as well as in our actual application code when we were using callbacks. Just by virtue of needing to have the callbacks around in order to reference whatever might need to be referenced. The request object is an example to send it all the way back to the user when they had an error or whatever might be going on.
 
-So we flipped over to promises fairly early, say a year and a half ago, something like that. We actually used Q. I'm actually a big fan of Q. The only downside is that by virtue of being cross-browser it's a little slow in node and it has some garbage collection issues. I think it's getting much better.  We actually ended up swapping it out and building our own library just to use the subset of promises that we needed and since then it's been going great. I'd say the only big problem that we've had is object construction overhead as opposed to static functions. But it's pretty wonderful.
+So we flipped over to promises fairly early, say a year and a half ago, something like that. We actually used Q. I'm actually a big fan of [Q](https://github.com/kriskowal/q). The only downside is that by virtue of being cross-browser it's a little slow in node and it has some garbage collection issues. I think it's getting much better. We actually ended up swapping it out and building our own library just to use the subset of promises that we needed and since then it's been going great. I'd say the only big problem that we've had is object construction overhead as opposed to static functions. But it's pretty wonderful.
 
-I'm actually really curious to hear people's performance experiences with promises because my experience has always been like I use them to do async operations and usually that involves I/O and I/O is slow so it's never been an issue for me but definitely there's tonnes of people for whom it is an issue so I'd love to hear about what situations you ran into when object creation overhead became an issue.  Cause they must exist, so many people care.
+I'm actually really curious to hear people's performance experiences with promises because my experience has always been like I use them to do async operations and usually that involves I/O and I/O is slow so it's never been an issue for me but definitely there's tons of people for whom it is an issue so I'd love to hear about what situations you ran into when object creation overhead became an issue. Cause they must exist, so many people care.
 
-Yeah, for us, it is an issue and it's mostly an issue because as soon as you start chaining your promises with then and fail you're constructing more objects on the fly and just pure benchmarking numbers, even in a library where all you're doing is constructing objects it starts falling off very quickly.  I mean it's linear but relative to just having a call that can place, it's not identical and it looks like it's better to have the callback but it's also better to have a function that actually returns something that represents the value that's gonna be there at some point in time. As opposed to returning undefined and then you don't know if the function's actually undefined or if it's gonna be coming back at some point.
+Yeah, for us, it is an issue and it's mostly an issue because as soon as you start chaining your promises with then and fail you're constructing more objects on the fly and just pure benchmarking numbers, even in a library where all you're doing is constructing objects it starts falling off very quickly. I mean it's linear but relative to just having a call that can place, it's not identical and it looks like it's better to have the callback but it's also better to have a function that actually returns something that represents the value that's gonna be there at some point in time. As opposed to returning undefined and then you don't know if the function's actually undefined or if it's gonna be coming back at some point.
 
 Of all the problems we have at medium, promises and the object construction is by no means the larges problem we have.
 
 It's just like in pure benchmarking numbers we do see that it's an order of magnitude of two orders of magnitude slower than just having a function inline.
 
-What about the GC hit.  If we run into some of the performance considerations and avoiding all un-necessary anonymous function creation is actually something that makes a difference under significant production load.
+What about the GC hit. If we run into some of the performance considerations and avoiding all un-necessary anonymous function creation is actually something that makes a difference under significant production load.
 
 Yeah, absolutely. We ran into the exact same thing at medium. For us what we ended up doing is we ended up sort of bastardizing the promise pattern a little bit and allowed us to attach a context to the promises which we could then clear at a later date. That way if there was something that needed to be carried around, normally by an anonymous function and a closure, we could carry it around via the context instead. So actually the vast majority of our open source libraries that are built on top of promises don't actually have any anonymous functions in them. Just to prevent that problem exactly. Sheppard actually, which is our asynchronous dependency injection system, all of the functions in it are either for the life of the request or they live forever, or until the build is gone.
 
